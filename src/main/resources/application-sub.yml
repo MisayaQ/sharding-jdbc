@@ -13,18 +13,18 @@ spring:
         # 配置druid数据源
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://47.106.10.89:3306/ksd_order?useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&useSSL=false&serverTimezone=GMT%2b8
+        url: jdbc:mysql://47.106.10.89:3306/ksd_ord?useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&useSSL=false&serverTimezone=GMT%2b8
         username: root
-        password: mkxiaoer1986.
+        password: root
         maxPoolSize: 100
         minPoolSize: 5
       # 配置ds1-slave
       ds1:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://39.106.157.201:3306/ksd_order?useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&useSSL=false&serverTimezone=GMT%2b8
+        url: jdbc:mysql://39.106.157.193:3306/ksd_ord?useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&useSSL=false&serverTimezone=GMT%2b8
         username: root
-        password: mkxiaoer
+        password: root
         maxPoolSize: 100
         minPoolSize: 5
     # 配置默认数据源ds1
