@@ -18,11 +18,11 @@ class ShardingJdbcApplicationTests {
     @Test
     void contextLoads() {
         User user = new User();
-        user.setNickname("zhangsan"+ new Random().nextInt());
+        user.setNickname("ceshi1"+ new Random().nextInt());
         user.setPassword("1234567");
         user.setSex(1);
         user.setBirthday(new Date());
-        user.setAge(1);
+        user.setAge(2);
         userMapper.addUser(user);
     }
 
